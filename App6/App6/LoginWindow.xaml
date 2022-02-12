@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App6.MainPage">
+
+    <StackLayout Padding="5" Orientation="Vertical" VerticalOptions="Center" >
+        <Label Text="Авторизация" FontSize="32" FontAttributes="Bold" HorizontalOptions="Center" Margin="0, 0, 0, 100"/>
+        <Entry x:Name="log"  Margin="20, 0, 20, 0" Placeholder="Логин" FontSize="20"/>
+        <Entry x:Name="pass" IsPassword="True" Margin="20, 30, 20, 0" Placeholder="Пароль" FontSize="20"/>
+        <StackLayout Spacing="30">
+            <Button x:Name="input_But" Text="Войти" FontSize="20" Padding="0, 10, 0, 10" Margin="80, 0, 80, 0" CornerRadius="10" BackgroundColor="#FFD600" Clicked="LoginCliked_Button"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

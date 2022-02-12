@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:graphics="clr-namespace:Android.Graphics;assembly=Mono.Android" xmlns:media="http://schemas.microsoft.com/expression/blend/2008" xmlns:forms="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms" xmlns:qrcode="clr-namespace:ZXing.QrCode;assembly=zxing.portable"
+             x:Class="App6.Page1"
+             xmlns:zxing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms">
+    <Grid>
+        <Label Text="Электронный пропуск" Padding="0,5,0,0" FontSize="32" HorizontalOptions="Center"/>
+        <StackLayout Padding="5" Margin="0,100,0,0">
+            <Entry x:Name="firstnameOfUser" IsEnabled="False" Text="Фамилия" FontSize="24" Margin="20,0,20,0"/>
+            <Entry x:Name="nameOfUser" IsEnabled="False" Text="Имя" FontSize="24" Margin="20,0,20,0"/>
+            <Entry x:Name="puperOfUser" IsEnabled="False" Text="Отчество" FontSize="24" Margin="20,0,20,0"/>
+            <Entry x:Name="dateOfUser" IsEnabled="False" Text="01.00.0000" FontSize="24" Margin="20,0,20,0"/>
+            <zxing:ZXingBarcodeImageView x:Name="zxingImageView" BarcodeFormat="QR_CODE" BarcodeValue="BarcodeValue" WidthRequest="400" HeightRequest="400">
+                <forms:ZXingBarcodeImageView.BarcodeOptions>
+                    <qrcode:QrCodeEncodingOptions Width="500" Height="500"></qrcode:QrCodeEncodingOptions>
+                </forms:ZXingBarcodeImageView.BarcodeOptions>
+            </zxing:ZXingBarcodeImageView>
+            
+        </StackLayout>
+
+        <Grid VerticalOptions="End" Padding="15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" x:Name="out" Text="Выйти" BackgroundColor="#FFD600" CornerRadius="10" Padding="0, 15, 0, 15" Clicked="ClickedBack_Button"/>
+            <Button Grid.Column="1" x:Name="change" Text="Изменить" BackgroundColor="#DADADA" CornerRadius="10"/>
+        </Grid>
+    </Grid>
+</ContentPage>
