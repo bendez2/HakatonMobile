@@ -18,3 +18,5 @@ C:\Users\liliili\source\repos\App6\App6\App6\bin\Debug\netstandard2.1\Mono.Andro
 C:\Users\liliili\source\repos\App6\App6\App6\obj\Debug\netstandard2.1\App6.csproj.CopyComplete
 C:\Users\liliili\source\repos\App6\App6\App6\obj\Debug\netstandard2.1\App6.d-bfalse.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\liliili\source\repos\App6\App6\App6\obj\Debug\netstandard2.1\App6.csproj.AssemblyReference.cache
+C:\Users\liliili\source\repos\App6\App6\App6\obj\Debug\netstandard2.1\EnterPinCode.xaml.g.cs
+C:\Users\liliili\source\repos\App6\App6\App6\obj\Debug\netstandard2.1\NewPinCode.xaml.g.cs

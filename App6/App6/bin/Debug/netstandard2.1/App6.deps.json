@@ -10,7 +10,6 @@
       "App6/1.0.0": {
         "dependencies": {
           "MySql.EntityFrameworkCore": "3.1.19",
-          "Net.Codecrete.QrCodeGenerator": "2.0.1",
           "Pomelo.EntityFrameworkCore.MySql": "3.2.7",
           "Uno.UI": "4.0.13",
           "Xamarin.Essentials": "1.7.0",
@@ -315,14 +314,6 @@
           "lib/netstandard2.1/MySqlConnector.dll": {
             "assemblyVersion": "0.69.10.0",
             "fileVersion": "0.69.10.0"
-          }
-        }
-      },
-      "Net.Codecrete.QrCodeGenerator/2.0.1": {
-        "runtime": {
-          "lib/netstandard2.0/QrCodeGenerator.dll": {
-            "assemblyVersion": "1.6.0.0",
-            "fileVersion": "2.0.1.0"
           }
         }
       },
@@ -882,13 +873,6 @@
       "sha512": "sha512-flikhWc6q1gZE4l1PujXLnoZxthf/DqKo43y8x5Cw7/iaivjVYAHHhlr3/t6i8GImi/dbxP4zntp5J/4EVFcbw==",
       "path": "mysqlconnector/0.69.10",
       "hashPath": "mysqlconnector.0.69.10.nupkg.sha512"
-    },
-    "Net.Codecrete.QrCodeGenerator/2.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-5dy3Jru2FOQKAQGuys5MwsOyTNLJJOgB011Wq5yC3Q6N5B7a3KpbJYDvCJFZ4FYqXJGlConCKYpEF9KwTQtQlQ==",
-      "path": "net.codecrete.qrcodegenerator/2.0.1",
-      "hashPath": "net.codecrete.qrcodegenerator.2.0.1.nupkg.sha512"
     },
     "Newtonsoft.Json/11.0.2": {
       "type": "package",

@@ -25,7 +25,8 @@ namespace App6
                 {
                     user = dbContext.Users.Where(user => (user.Email == login) && (user.Password == password)).First();
                 }
-                Application.Current.MainPage = new Page1(user);
+                if (user.Pin == "" || user.Pin == null) { Application.Current.MainPage = new NewPinCode(user); }
+                else { Application.Current.MainPage = new EnterPinCode(user); }
             }
             catch
             {

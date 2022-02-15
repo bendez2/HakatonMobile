@@ -1116,9 +1116,7 @@ C:\Users\liliili\source\repos\App6\App6\App6.Android\obj\Debug\120\android\asset
 C:\Users\liliili\source\repos\App6\App6\App6.Android\obj\Debug\120\android\assets\ZXing.Net.Mobile.Forms.dll
 C:\Users\liliili\source\repos\App6\App6\App6.Android\obj\Debug\120\android\assets\zxing.portable.dll
 C:\Users\liliili\source\repos\App6\App6\App6.Android\obj\Debug\120\android\assets\ZXingNetMobile.dll
-C:\Users\liliili\source\repos\App6\App6\App6.Android\obj\Debug\120\androidx\jl\b527ab33-6184-4e5e-a110-9867c34414ff.jar
 C:\Users\liliili\source\repos\App6\App6\App6.Android\obj\Debug\120\stamp\_AndroidXJetifyJavaLibraryRules.stamp
-C:\Users\liliili\source\repos\App6\App6\App6.Android\obj\Debug\120\androidx\proguard\37fa7669-1f32-490e-a943-3a3291b64855.cfg
 C:\Users\liliili\source\repos\App6\App6\App6.Android\obj\Debug\120\stamp\_AndroidXJetifyProguardRules.stamp
 C:\Users\liliili\source\repos\App6\App6\App6.Android\obj\Debug\120\androidx\_AndroidXJetifyProguardRules.jetify
 C:\Users\liliili\source\repos\App6\App6\App6.Android\obj\Debug\120\stamp\_AndroidXCecilfy.stamp
@@ -1133,3 +1131,5 @@ C:\Users\liliili\source\repos\App6\App6\App6.Android\obj\Debug\120\android\src\c
 C:\Users\liliili\source\repos\App6\App6\App6.Android\obj\Debug\120\stamp\_AndroidXJetifyManifest.stamp
 C:\Users\liliili\source\repos\App6\App6\App6.Android\obj\Debug\120\androidx\_AndroidXJetifyManifest.jetify
 C:\Users\liliili\source\repos\App6\App6\App6.Android\obj\Debug\120\stamp\_CopyIntermediateAssemblies.stamp
+C:\Users\liliili\source\repos\App6\App6\App6.Android\obj\Debug\120\androidx\jl\0678c9e8-e4eb-4809-9de3-3e584ac14160.jar
+C:\Users\liliili\source\repos\App6\App6\App6.Android\obj\Debug\120\androidx\proguard\1a4c3497-af1c-4cc6-9877-2d544ada4838.cfg
