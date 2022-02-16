@@ -14,7 +14,6 @@ namespace App6
         public string Patronymic { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-
         public string Pin { get; set; }
         public string Date { get; set; }   
     }

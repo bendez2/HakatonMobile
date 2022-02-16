@@ -13,10 +13,10 @@ namespace App6
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class EnterPinCode : ContentPage
     {
-        User users;
+        User user;
         public EnterPinCode(User user)
         {
-            users = user;
+            this.user = user;
             InitializeComponent();
         }
 
@@ -28,21 +28,21 @@ namespace App6
             Button button = (Button)sender;
             string content = (string)button.Text;
 
-            if (Regex.IsMatch(content, "[0-9]")) // ввод пин-кода
+            if (Regex.IsMatch(content, "[0-9]")) 
             {
                 pinCodeBox.Text += content;
             }
 
-            if (Regex.IsMatch(content, "[×]")) // очистка поля пин-кода
+            if (Regex.IsMatch(content, "[×]")) 
             {
                 pinCodeBox.Text = null;
             }
 
             if (Regex.IsMatch(content, "[→]"))
             {
-                if (pinCodeBox.Text == users.Pin)
+                if (pinCodeBox.Text == user.Pin)
                 {
-                    Application.Current.MainPage = new Page1(users);
+                    Application.Current.MainPage = new Page1(user);
                 }
             }
         }

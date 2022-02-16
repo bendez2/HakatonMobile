@@ -19,10 +19,10 @@ namespace App6
         {
             pin = user.Pin; 
             this.user = user;
+
             InitializeComponent();
         }
-
-       
+              
 
         public void Button_Clicked(object sender, EventArgs e)
         {
@@ -30,13 +30,12 @@ namespace App6
             Button button = (Button)sender;
             string content = (string)button.Text;
             
-
-            if (Regex.IsMatch(content, "[0-9]")) // ввод пин-кода
+            if (Regex.IsMatch(content, "[0-9]")) 
             {
                 pinCodeBox.Text += content;
             }
 
-            if (Regex.IsMatch(content, "[×]")) // очистка поля пин-кода
+            if (Regex.IsMatch(content, "[×]")) 
             {
                 pinCodeBox.Text = null;
             }

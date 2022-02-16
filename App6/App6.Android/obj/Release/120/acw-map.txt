@@ -325,9 +325,6 @@ com.google.android.material.appbar.AppBarLayout$OnOffsetChangedListener;com.goog
 Google.Android.Material.AppBar.AppBarLayout+IOnOffsetChangedListenerImplementor, Xamarin.Google.Android.Material;mono.com.google.android.material.appbar.AppBarLayout_OnOffsetChangedListenerImplementor
 Google.Android.Material.AppBar.AppBarLayout.IOnOffsetChangedListenerImplementor;mono.com.google.android.material.appbar.AppBarLayout_OnOffsetChangedListenerImplementor
 mono.com.google.android.material.appbar.AppBarLayout_OnOffsetChangedListenerImplementor;mono.com.google.android.material.appbar.AppBarLayout_OnOffsetChangedListenerImplementor
-App6.Droid.MainActivity, App6.Android;crc6448d5645689b49334.MainActivity
-App6.Droid.MainActivity;crc6448d5645689b49334.MainActivity
-app6.droid.MainActivity;crc6448d5645689b49334.MainActivity
 Uno.Media.Playback.AudioPlayerBroadcastReceiver, Uno;crc6445abe3587658c5aa.AudioPlayerBroadcastReceiver
 Uno.Media.Playback.AudioPlayerBroadcastReceiver;crc6445abe3587658c5aa.AudioPlayerBroadcastReceiver
 uno.media.playback.AudioPlayerBroadcastReceiver;crc6445abe3587658c5aa.AudioPlayerBroadcastReceiver
@@ -2050,3 +2047,6 @@ zxing.mobile.ZXingSurfaceView;crc6480997b3ef81bf9b2.ZXingSurfaceView
 ZXing.Mobile.CameraAccess.CameraEventsListener, ZXingNetMobile;crc643eead1a2954d3917.CameraEventsListener
 ZXing.Mobile.CameraAccess.CameraEventsListener;crc643eead1a2954d3917.CameraEventsListener
 zxing.mobile.cameraaccess.CameraEventsListener;crc643eead1a2954d3917.CameraEventsListener
+App6.Droid.MainActivity, App6.Android;crc6448d5645689b49334.MainActivity
+App6.Droid.MainActivity;crc6448d5645689b49334.MainActivity
+app6.droid.MainActivity;crc6448d5645689b49334.MainActivity

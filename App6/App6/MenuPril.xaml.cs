@@ -14,10 +14,10 @@ namespace App6
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Page1 : ContentPage
     {
-        User users;
+        User user;
         public Page1(User user)
         {
-            users = user;
+            this.user = user;
             InitializeComponent();
             zxingImageView.BarcodeValue = user.ID.ToString();
             Position.Text = user.Position;
@@ -35,7 +35,7 @@ namespace App6
 
         private void ClickedNewPin_Button(object sender, System.EventArgs e)
         {
-            Application.Current.MainPage = new NewPinCode(users);
+            Application.Current.MainPage = new NewPinCode(user);
         }
     }
 }

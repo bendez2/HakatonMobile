@@ -17,7 +17,7 @@
 
 	/* 1: App6.dll */
 	/* uncompressed_file_size */
-	.word	22016
+	.word	41472
 	/* loaded */
 	.byte	0
 	/* data */

@@ -4,8 +4,8 @@
              x:Class="App6.Page1"
              xmlns:zxing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms">
     <ScrollView>
-        <Grid>
-            <Label Text="Электронный пропуск" Padding="0,5,0,0" FontSize="32" HorizontalOptions="Center"/>
+        <Grid BackgroundColor="#FFF8DC">
+            <Label Text="Электронный пропуск" Padding="0,5,0,0" TextColor="Black" FontAttributes="Bold" FontSize="32" HorizontalOptions="Center"/>
             <StackLayout Padding="5" Margin="0,100,0,0">
                 <Label Text="Название предприятия:" FontSize="18" TextColor="Gray" Margin="25,0,20,-20"/>
                 <Entry x:Name="nameOfCorp" IsReadOnly="True" Text="Аносов" TextColor="Black" FontSize="24" Margin="20,0,20,10"/>
@@ -18,10 +18,11 @@
                 <Label Text="Дата рождения:" FontSize="18" TextColor="Gray" Margin="25,10,20,-20"/>
                 <Entry x:Name="dateOfUser" IsReadOnly="True" Text="00.00.0000" TextColor="black" FontSize="24" Margin="20,0,20,0"/>
 
+                <Label Text="QR-код сотрудника:" FontSize="24" FontAttributes="Bold" TextColor="black" Margin="25,10,20,10"/>
 
-                <zxing:ZXingBarcodeImageView x:Name="zxingImageView" BarcodeFormat="QR_CODE" BarcodeValue="BarcodeValue" WidthRequest="400" HeightRequest="400">
-                    <forms:ZXingBarcodeImageView.BarcodeOptions>
-                        <qrcode:QrCodeEncodingOptions Width="500" Height="500"></qrcode:QrCodeEncodingOptions>
+                <zxing:ZXingBarcodeImageView x:Name="zxingImageView" BarcodeFormat="QR_CODE" BarcodeValue="BarcodeValue" BackgroundColor="#FFF8DC" WidthRequest="300" HeightRequest="300" >
+                    <forms:ZXingBarcodeImageView.BarcodeOptions >
+                        <qrcode:QrCodeEncodingOptions Width="350" Height="350"></qrcode:QrCodeEncodingOptions>
                     </forms:ZXingBarcodeImageView.BarcodeOptions>
                 </zxing:ZXingBarcodeImageView>
 
@@ -30,8 +31,8 @@
                         <ColumnDefinition/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <Button Grid.Column="0" x:Name="out" Text="Выйти" BackgroundColor="#FFD600" CornerRadius="10" Padding="0, 15, 0, 15" Clicked="ClickedBack_Button"/>
-                    <Button Grid.Column="1" x:Name="change" Text="Изменить пин-код" BackgroundColor="#DADADA" CornerRadius="10" Clicked="ClickedNewPin_Button"/>
+                    <Button Grid.Column="0" x:Name="out" Text="Выйти" FontAttributes="Bold" TextColor="LightGoldenrodYellow" BackgroundColor="#8B0000" CornerRadius="10" Padding="0, 15, 0, 15" Clicked="ClickedBack_Button"/>
+                    <Button Grid.Column="1" x:Name="change" FontAttributes="Bold" Text="Изменить pin-код" BackgroundColor="#DEB887" CornerRadius="10" Clicked="ClickedNewPin_Button"/>
                 </Grid>
             </StackLayout>
         </Grid>

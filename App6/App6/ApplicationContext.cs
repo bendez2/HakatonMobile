@@ -1,21 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Text;
-using Microsoft.EntityFrameworkCore;
-using Xamarin.Essentials;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace App6
 {
     internal class ApplicationContext : DbContext
     {
-        private string _databasePath { get; }
         public DbSet<User> Users { get; set; }
 
         public ApplicationContext()
         {
-            
-
             this.Database.EnsureCreated();
         }
 
