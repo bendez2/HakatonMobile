@@ -16,7 +16,7 @@
 
 	/* 1: App6.dll */
 	/* uncompressed_file_size */
-	.long	41472
+	.long	40960
 	/* loaded */
 	.byte	0
 	/* data */
